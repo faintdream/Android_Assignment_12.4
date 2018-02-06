@@ -17,7 +17,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity  implements MyDialog.DialogListener{
 
-   static  ArrayList<String> alName= new ArrayList<String>();
+
+   ArrayList<String> alName= new ArrayList<String>();
    static  ArrayList<String>alPhone= new ArrayList<String>();
    static ArrayList<String>alDob=new ArrayList<String>();
    CustomView adapter = new CustomView();
